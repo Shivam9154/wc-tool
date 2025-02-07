@@ -4,9 +4,9 @@ A clone of the Unix wc utility written in Go, implementing the core functionalit
 
 ## Features
 
-Count bytes (-c)
-Count lines (-l)
-Count words (-w)
-Count characters (-m)
-Default mode (equivalent to -c -l -w)
-Support for file input and standard input
+1.Count bytes (-c)
+2.Count lines (-l)
+3.Count words (-w)
+4.Count characters (-m)
+5.Default mode (equivalent to -c -l -w)
+6.Support for file input and standard input
