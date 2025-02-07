@@ -10,4 +10,3 @@ Count words (-w)
 Count characters (-m)
 Default mode (equivalent to -c -l -w)
 Support for file input and standard input
-Unicode support
