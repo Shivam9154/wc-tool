@@ -20,4 +20,19 @@ go build -o wc ./cmd/wc
 ```
 # Count bytes
 ./wc -c test.txt
+
+# Count lines
+./wc -l test.txt
+
+# Count words
+./wc -w test.txt
+
+# Count characters
+./wc -m test.txt
+
+# Default mode (lines, words, bytes)
+./wc test.txt
+
+# Read from standard input
+cat test.txt | ./wc -l
 ```   
