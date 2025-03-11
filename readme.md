@@ -10,3 +10,14 @@ A clone of the Unix wc utility written in Go, implementing the core functionalit
 4.Count characters (-m)
 5.Default mode (equivalent to -c -l -w)
 6.Support for file input and standard input
+
+
+## Building
+go build -o wc ./cmd/wc
+
+
+## Usage
+```
+# Count bytes
+./wc -c test.txt
+```   
